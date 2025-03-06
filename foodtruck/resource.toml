@@ -1,0 +1,17 @@
+type = "js"
+main = "npc/server/server.js"
+
+name = "foodtruck"
+version = "1.0.0"
+author = "Günji"
+
+[client-files]
+# Client-Dateien hinzufügen
+files = [ 
+    "npc/client/client.js"
+]  
+
+[server-files]
+files = [ "npc/server/server.js" ]
+
+dependencies = [ "altv" ]
