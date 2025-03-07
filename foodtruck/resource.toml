@@ -1,0 +1,22 @@
+type = "js"
+main = "npc/server/server.js"
+client-main = "npc/client/client.js"
+
+name = "foodtruck"
+version = "1.0.0"
+author = "Günji"
+
+[client-files]
+files = [ 
+    "npc/client/client.js",
+    "vehicle/client/client.js",
+    "html/index.html"
+]
+
+[server-files]
+files = [ 
+    "npc/server/server.js",
+    "vehicle/server/server.js"
+]
+
+dependencies = [ "altv" ]
